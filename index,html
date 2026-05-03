@@ -11,6 +11,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
     
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -22,7 +25,7 @@
 
     <main class="app-container">
         <header class="hero-section">
-            <div class="header-badge">Civic Guide</div>
+            <div class="header-badge"><i class="ph ph-info"></i> Civic Guide</div>
             <h1>US Election <span class="text-gradient">Assistant</span></h1>
             <p class="subtitle">An interactive journey through the United States Presidential election process. Follow the timeline below to understand how it works.</p>
         </header>
@@ -50,8 +53,8 @@
                 </div>
                 
                 <div class="action-buttons">
-                    <button class="btn btn-secondary" id="btn-prev" disabled>Previous Step</button>
-                    <button class="btn btn-primary" id="btn-next">Next Step</button>
+                    <button class="btn btn-secondary" id="btn-prev" disabled><i class="ph ph-arrow-left"></i> Previous Step</button>
+                    <button class="btn btn-primary" id="btn-next">Next Step <i class="ph ph-arrow-right"></i></button>
                 </div>
             </div>
         </section>
